@@ -7,7 +7,7 @@ from sklearn.decomposition import TruncatedSVD
 from gensim.models.doc2vec import TaggedDocument
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from preprocess import get_tokenizer
+from embedding.preprocess import get_tokenizer
 
 sys.path.append('models')
 from bilm import dump_weights as dump_elmo_weights

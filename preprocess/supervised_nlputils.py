@@ -1,6 +1,6 @@
 import sys, re, argparse
 from khaiii import KhaiiiApi
-from konlpy.tag import Okt, Komoran, Mecab, Hannanum, Kkma
+from embedding.models.konlpy.tag import Okt, Komoran, Mecab, Hannanum, Kkma
 
 
 def get_tokenizer(tokenizer_name):

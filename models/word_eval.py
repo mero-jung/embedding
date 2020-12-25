@@ -6,10 +6,10 @@ from fasttext import load_model as load_ft_model
 from sklearn.preprocessing import normalize
 
 from soynlp.hangle import compose, character_is_korean
-from preprocess import get_tokenizer, jamo_sentence
+from embedding.preprocess import get_tokenizer, jamo_sentence
 
 sys.path.append('models')
-from visualize_utils import visualize_words, visualize_between_words
+from embedding.models.visualize_utils import visualize_words, visualize_between_words
 
 
 class WordEmbeddingEvaluator:

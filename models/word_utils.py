@@ -7,7 +7,7 @@ from soynlp.vectorizer import sent_to_word_contexts_matrix
 from collections import defaultdict
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from preprocess import get_tokenizer
+from embedding.preprocess import get_tokenizer
 
 
 class Word2VecCorpus:
